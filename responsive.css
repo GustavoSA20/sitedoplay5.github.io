@@ -1,0 +1,126 @@
+@media only screen and (max-width: 600px) {
+
+  #logo img{
+      display:block;
+      width: 60px;
+        height: auto;
+        position:absolute;
+        right: 180px;
+       
+      }
+     #menu img{
+          display:block;
+          width: 40px;
+          position:absolute;
+          right: 370px;
+           
+          }
+
+    .article-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      width: 430px;
+      height: auto;
+      letter-spacing: normal;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;}
+    
+      body {
+        background-color: #000000;
+        background-image: url("img/fundo91.jpeg") ;
+       
+  
+        height: 932px;
+        
+     
+      }
+      
+      *{
+        padding: 0;
+        margin: 0;
+      border: 0;
+      box-sizing: border-box;
+      }
+    
+      h1, h4 {
+        margin-top: 50px;
+             font-size: 45px;
+                  color: #FFFFFF;
+                  text-align: center;
+        
+          font-family: Arial, Helvetica, sans-serif;
+         left: 40px;
+                
+                
+                    
+      }
+      
+      h2 {
+    
+        
+        font-size: 30px;
+              color: #FFFFFF;
+     
+      font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+      }
+    
+      h6 {
+        margin-top: 50px;
+        font-size: 35px;   
+       color: #FFFFFF; 
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+      }
+                  
+   h3, h5 {
+          
+    margin-top: 40px;
+     color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: normal;
+      text-align: center;
+    letter-spacing: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 430px;
+  max-height: 932px;
+   }
+      
+  
+   head{
+      width: 950px;
+      height: 932px;
+      
+      
+      }
+
+    p {
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+         color: #FFFFFF;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          font-weight: normal;
+          text-align: center;
+        letter-spacing: normal;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 932px;
+      }
+
+      button {
+        background-color: #ffffff00;
+        color: white;
+        border-radius: .25em;
+        font-size: 14px;
+        cursor: pointer;
+        border: 2px solid #FFFFFF;
+        position: absolute;
+        left: 310px;
+        top: 22px;
+    }
+
+   }
